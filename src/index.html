@@ -13,11 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link
+    <link defer
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="./custom.css">
-    <link href="../dist/compile.css" rel="stylesheet">
+    <link defer rel="preconnect" href="./custom.css">
+    <link defer href="../dist/compile.css" rel="stylesheet">
 </head>
 
 <body class="bg-[#2B2F35]">
@@ -61,9 +61,10 @@
                     </div>
                     <div class="flex gap-[15px] p-4 h-max">
                         <button
-                            class="w-[120px] uppercase h-[36px] bg-[#007cb1] text-white text-[14px] font-bold">Login</button>
+                            class="w-[120px] uppercase h-[36px] bg-[#007cb1] text-white text-[14px] font-bold rounded-[2px]">Log
+                            in</button>
                         <button
-                            class="w-[120px] uppercase h-[36px] bg-[#C51A1B] text-white text-[14px] font-bold">Join</button>
+                            class="w-[120px] uppercase h-[36px] bg-[#C51A1B] text-white text-[14px] font-bold rounded-[2px]">Join</button>
                     </div>
                 </div>
             </div>
@@ -101,7 +102,7 @@
         </div>
 
         <div class="hidden max-lg:block">
-            <img src="../public/assets/images/mobile_bg.png" alt="Background for Mobile" loading="lazy" width="720"
+            <img src="../public/assets/images/mobile_bg.webp" alt="Background for Mobile" loading="eager" width="720"
                 height="1280" class="w-full bg-no-repeat object-cover">
         </div>
 
@@ -136,7 +137,7 @@
                     <div
                         class="xl:absolute xl:bottom-0 xl:right-0 min-xl:relative min-xl:bottom-auto min-xl:right-auto max-xl:flex max-xl:justify-center max-xl:items-center">
                         <img src="../public/assets/images/welcome_winmatch.webp" alt="welcome_winmatch" loading="lazy"
-                            fetchpriority="high" class="">
+                            fetchpriority="high" class="w-[18rem]">
                     </div>
                 </div>
             </div>
@@ -477,7 +478,7 @@
 
         <section class="bg-[#0000003d] overflow-y-hidden relative">
             <div class="max-w-screen-xl mx-auto flex flex-col justify-center items-center ">
-                <div class="">
+                <div>
                     <img class="absolute w-[25%] right-0 top-0 transform translate-x-[0px] translate-y-[-15%] -z-[1]"
                         src="../public/assets/images/featuresBgOne.svg" alt="featuresBgOne" loading="lazy"
                         fetchpriority="high">
@@ -814,7 +815,7 @@
         <section class="block Tab:hidden">
             <div class="max-w-screen-xl mx-auto flex flex-col justify-center items-center">
                 <div class="max-2xl:px-[20px] pt-[100px] max-md:pt-[50px]">
-                    <div class="">
+                    <div>
                         <div class="flex flex-col gap-8">
                             <div class="flex items-center gap-[12px] pb-6">
                                 <img src="../public/assets/images/sportsBook.svg" alt="sportsBook" loading="lazy"
@@ -1087,7 +1088,7 @@
                         </p>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex items-center justify-between  flex-row-reverse">
                             <div class="flex-1 pt-[83px]">
                                 <img src="../public/assets/images/howToBet/loginAcount.webp" alt="loginAcount"
@@ -1130,7 +1131,7 @@
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex items-center justify-between ">
                             <div class="flex-1">
                                 <img src="../public/assets/images/howToBet/depositeFund.webp" alt="depositeFund"
@@ -1173,7 +1174,7 @@
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex flex-row-reverse items-center justify-between ">
                             <div class="flex-1">
                                 <img src="../public/assets/images/howToBet/chooseBet.webp" alt="chooseBet"
@@ -1217,7 +1218,7 @@
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex items-center justify-between ">
                             <div class="flex-1">
                                 <img src="../public/assets/images/howToBet/betAmount.webp" alt="betAmount"
@@ -1261,7 +1262,7 @@
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex flex-row-reverse items-center justify-between ">
                             <div class="flex-1">
                                 <img src="../public/assets/images/howToBet/chooseBet.webp" alt="chooseBet"
@@ -1305,7 +1306,7 @@
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="flex items-center justify-between ">
                             <div class="flex-1">
                                 <img src="../public/assets/images/howToBet/result.webp" alt="result" loading="lazy"
@@ -1683,7 +1684,7 @@
                 <div
                     class="xl:absolute xl:bottom-0 xl:right-0 min-xl:relative min-xl:bottom-auto min-xl:right-auto max-xl:flex max-xl:justify-end max-xl:items-center">
                     <img src="../public/assets/images/referEarnBanner.webp" alt="referEarnBanner" loading="lazy"
-                        fetchpriority="high" class="">
+                        fetchpriority="high">
                 </div>
             </div>
         </section>
@@ -1847,27 +1848,27 @@
 
                         <div class="scroller" data-direction="right" data-speed="fast">
                             <div class="scroller__inner py-4 flex flex-wrap gap-6">
-                                <img class="" src="../public/assets/images/providers/blueprint.svg" alt="blueprint"
+                                <img src="../public/assets/images/providers/blueprint.svg" alt="blueprint"
                                     loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/evolution.svg" alt="evolution"
+                                <img src="../public/assets/images/providers/evolution.svg" alt="evolution"
                                     loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/ezuzi.svg" alt="ezuzi"
-                                    loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/live_gaming.svg" alt="live_gaming"
-                                    loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/newgame.svg" alt="newgame"
-                                    loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/rage.svg" alt="rage" loading="lazy"
+                                <img src="../public/assets/images/providers/ezuzi.svg" alt="ezuzi" loading="lazy"
                                     fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/redTiger.svg" alt="redTiger"
+                                <img src="../public/assets/images/providers/live_gaming.svg" alt="live_gaming"
                                     loading="lazy" fetchpriority="high">
-                                <img class="" src="../public/assets/images/providers/streak.svg" alt="streak"
-                                    loading="lazy" fetchpriority="high">
+                                <img src="../public/assets/images/providers/newgame.svg" alt="newgame" loading="lazy"
+                                    fetchpriority="high">
+                                <img src="../public/assets/images/providers/rage.svg" alt="rage" loading="lazy"
+                                    fetchpriority="high">
+                                <img src="../public/assets/images/providers/redTiger.svg" alt="redTiger" loading="lazy"
+                                    fetchpriority="high">
+                                <img src="../public/assets/images/providers/streak.svg" alt="streak" loading="lazy"
+                                    fetchpriority="high">
 
-                                <img class="" src="../public/assets/images/providers/tvbet.svg" alt="tvbet"
-                                    loading="lazy" fetchpriority="high">
+                                <img src="../public/assets/images/providers/tvbet.svg" alt="tvbet" loading="lazy"
+                                    fetchpriority="high">
 
-                                <img class="" src="../public/assets/images/providers/blueprint.svg" alt="blueprint"
+                                <img src="../public/assets/images/providers/blueprint.svg" alt="blueprint"
                                     loading="lazy" fetchpriority="high">
                             </div>
                         </div>
@@ -1938,7 +1939,7 @@
     </main>
 
     <button id="backToTop"
-        class="fixed bottom-[20px] right-[20px] bg-[#cc0707] text-white rounded-full w-[50px] h-[50px] text-2xl cursor-pointer opacity-0 transition-opacity duration-300 transform hover:bg-[#555] cursor-pointer"
+        class="fixed bottom-[20px] right-[20px] bg-[#951717] text-white rounded-full w-[50px] h-[50px] text-2xl cursor-pointer opacity-0 transition-opacity duration-300 transform hover:bg-[#555]"
         title="Go to top">
         ↑
     </button>
